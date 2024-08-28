@@ -1,0 +1,40 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:alpine-3.20",
+  "features": {
+    "ghcr.io/adibarra/devcontainer-features/alpine-nvm:1": { }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ahmadalli.vscode-nginx-conf",
+        "antfu.goto-alias",
+        "antfu.iconify",
+        "antfu.unocss",
+        "bradlc.vscode-tailwindcss",
+        "christian-kohler.path-intellisense",
+        "csstools.postcss",
+        "dbaeumer.vscode-eslint",
+        "ecmel.vscode-html-css",
+        "editorconfig.editorconfig",
+        "github.vscode-github-actions",
+        "github.vscode-pull-request-github",
+        "johnsoncodehk.vscode-tsconfig-helper",
+        "joshbolduc.commitlint",
+        "lokalise.i18n-ally",
+        "ms-azuretools.vscode-docker",
+        "mutantdino.resourcemonitor",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "vivaxy.vscode-conventional-commits",
+        "vue.volar",
+        "wakatime.vscode-wakatime"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "3333": { "label": "Development - Frontend" },
+    "3332": { "label": "Development - Backend" },
+    "3000": { "label": "Production" }
+  },
+  "postStartCommand": ".devcontainer/postStartCommand.sh"
+}

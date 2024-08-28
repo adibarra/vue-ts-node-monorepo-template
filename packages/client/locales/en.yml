@@ -1,0 +1,15 @@
+example:
+  hello-world: Hello World!
+
+i18n:
+  language: Language
+  language-changed-to: Language changed to {0}
+
+theme-switcher:
+  switch-theme: Switch Theme
+  theme-changed-to: Theme changed to {0}
+
+404:
+  title: 404
+  not-found: Not Found
+  go-back: Go Back

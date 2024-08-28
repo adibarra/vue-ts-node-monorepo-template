@@ -1,0 +1,11 @@
+{
+  "name": "@vue-ts-node-monorepo-template/types",
+  "type": "module",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "clean:all": "rm -rf node_modules/",
+    "typecheck": "tsc --noEmit"
+  }
+}
