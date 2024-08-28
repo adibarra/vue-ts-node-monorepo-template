@@ -29,10 +29,11 @@
 This template is a fullstack monorepo that uses Vue, TypeScript, and Node. It is set up to be a starting point for a new project.
 
 Search and replace the following placeholders:
-`__APP_NAME__`: The name of the app.
-`__APP_DESCRIPTION__`: A brief description of the app.
-`__APP_URL__`: The full URL of the app.
-`__APP_GITHUB__`: The GitHub repository of the app.
+
+1. `__APP_NAME__`: The name of the app.
+2. `__APP_DESCRIPTION__`: A brief description of the app.
+3. `__APP_URL__`: The full URL of the app.
+4. `__APP_GITHUB__`: The GitHub repository of the app.
 
 ## Tooling
 
